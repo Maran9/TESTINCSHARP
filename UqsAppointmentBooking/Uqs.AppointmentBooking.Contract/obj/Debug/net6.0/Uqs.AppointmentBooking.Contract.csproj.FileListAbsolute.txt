@@ -1,0 +1,12 @@
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\bin\Debug\net6.0\Uqs.AppointmentBooking.Contract.deps.json
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\bin\Debug\net6.0\Uqs.AppointmentBooking.Contract.dll
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\bin\Debug\net6.0\Uqs.AppointmentBooking.Contract.pdb
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.csproj.AssemblyReference.cache
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.AssemblyInfoInputs.cache
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.AssemblyInfo.cs
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.csproj.CoreCompileInputs.cache
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.dll
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\refint\Uqs.AppointmentBooking.Contract.dll
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\Uqs.AppointmentBooking.Contract.pdb
+C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\obj\Debug\net6.0\ref\Uqs.AppointmentBooking.Contract.dll

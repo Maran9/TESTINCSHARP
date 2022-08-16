@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.505938242280285" branch-rate="0.5434782608695652" lines-covered="213" lines-valid="421" branches-covered="25" branches-valid="46" complexity="102" version="0" timestamp="1660651708">
+  <sources>
+    <source>C:\Users\maranf\</source>
+  </sources>
+  <packages>
+    <package name="Uqs.AppointmentBooking.Contract" line-rate="0" branch-rate="1" complexity="7">
+      <classes>
+        <class name="Uqs.AppointmentBooking.Contract.AvailableEmployees" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\AvailableEmployees.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Employees" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.AvailableServices" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\AvailableServices.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Services" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.AvailableSlots" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\AvailableSlots.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_DaysSlots" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.DaySlots" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\DaySlots.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Day" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.Employee" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\Employee.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_EmployeeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.Service" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\Service.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_ServiceId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Contract.ServiceDetails" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Contract\ServiceDetails.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_ServiceId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="0" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Uqs.AppointmentBooking.Domain" line-rate="0.32432432432432434" branch-rate="0.5" complexity="83">
+      <classes>
+        <class name="Uqs.AppointmentBooking.Domain.ApplicationSettings" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\ApplicationSettings.cs.cs" line-rate="0.75" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_DatabaseId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_OpenAppointmentInDays" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="26" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RoundUpInMin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="198" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RestInMin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="28" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="26" branch="false" />
+            <line number="7" hits="198" branch="false" />
+            <line number="8" hits="28" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Database.SeedData" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Database\SeedData.cs" line-rate="0" branch-rate="0" complexity="14">
+          <methods>
+            <method name="GetFirstMonday" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="153" hits="0" branch="false" />
+                <line number="154" hits="0" branch="false" />
+                <line number="155" hits="0" branch="false" />
+                <line number="156" hits="0" branch="false" />
+                <line number="158" hits="0" branch="false" />
+                <line number="159" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="SetTime" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="162" hits="0" branch="false" />
+                <line number="163" hits="0" branch="false" />
+                <line number="164" hits="0" branch="false" />
+                <line number="165" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Initialize" signature="()" line-rate="0" branch-rate="0" complexity="12">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+                <line number="60" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="72" hits="0" branch="true" condition-coverage="0% (0/4)" />
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="0" branch="false" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="false" />
+                <line number="78" hits="0" branch="false" />
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+                <line number="91" hits="0" branch="false" />
+                <line number="93" hits="0" branch="false" />
+                <line number="94" hits="0" branch="false" />
+                <line number="95" hits="0" branch="false" />
+                <line number="96" hits="0" branch="false" />
+                <line number="97" hits="0" branch="false" />
+                <line number="98" hits="0" branch="false" />
+                <line number="99" hits="0" branch="false" />
+                <line number="100" hits="0" branch="false" />
+                <line number="101" hits="0" branch="false" />
+                <line number="102" hits="0" branch="false" />
+                <line number="103" hits="0" branch="false" />
+                <line number="104" hits="0" branch="false" />
+                <line number="107" hits="0" branch="false" />
+                <line number="108" hits="0" branch="false" />
+                <line number="109" hits="0" branch="false" />
+                <line number="110" hits="0" branch="false" />
+                <line number="111" hits="0" branch="false" />
+                <line number="112" hits="0" branch="false" />
+                <line number="113" hits="0" branch="false" />
+                <line number="114" hits="0" branch="false" />
+                <line number="117" hits="0" branch="false" />
+                <line number="119" hits="0" branch="false" />
+                <line number="120" hits="0" branch="false" />
+                <line number="121" hits="0" branch="false" />
+                <line number="122" hits="0" branch="false" />
+                <line number="123" hits="0" branch="false" />
+                <line number="124" hits="0" branch="false" />
+                <line number="125" hits="0" branch="false" />
+                <line number="126" hits="0" branch="false" />
+                <line number="127" hits="0" branch="false" />
+                <line number="128" hits="0" branch="false" />
+                <line number="129" hits="0" branch="false" />
+                <line number="130" hits="0" branch="false" />
+                <line number="131" hits="0" branch="false" />
+                <line number="132" hits="0" branch="false" />
+                <line number="133" hits="0" branch="false" />
+                <line number="134" hits="0" branch="false" />
+                <line number="135" hits="0" branch="false" />
+                <line number="136" hits="0" branch="false" />
+                <line number="137" hits="0" branch="false" />
+                <line number="138" hits="0" branch="false" />
+                <line number="139" hits="0" branch="false" />
+                <line number="140" hits="0" branch="false" />
+                <line number="141" hits="0" branch="false" />
+                <line number="142" hits="0" branch="false" />
+                <line number="145" hits="0" branch="false" />
+                <line number="147" hits="0" branch="false" />
+                <line number="148" hits="0" branch="false" />
+                <line number="149" hits="0" branch="false" />
+                <line number="150" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="60" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="72" hits="0" branch="true" condition-coverage="0% (0/4)" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="0" branch="false" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="false" />
+            <line number="78" hits="0" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+            <line number="91" hits="0" branch="false" />
+            <line number="93" hits="0" branch="false" />
+            <line number="94" hits="0" branch="false" />
+            <line number="95" hits="0" branch="false" />
+            <line number="96" hits="0" branch="false" />
+            <line number="97" hits="0" branch="false" />
+            <line number="98" hits="0" branch="false" />
+            <line number="99" hits="0" branch="false" />
+            <line number="100" hits="0" branch="false" />
+            <line number="101" hits="0" branch="false" />
+            <line number="102" hits="0" branch="false" />
+            <line number="103" hits="0" branch="false" />
+            <line number="104" hits="0" branch="false" />
+            <line number="107" hits="0" branch="false" />
+            <line number="108" hits="0" branch="false" />
+            <line number="109" hits="0" branch="false" />
+            <line number="110" hits="0" branch="false" />
+            <line number="111" hits="0" branch="false" />
+            <line number="112" hits="0" branch="false" />
+            <line number="113" hits="0" branch="false" />
+            <line number="114" hits="0" branch="false" />
+            <line number="117" hits="0" branch="false" />
+            <line number="119" hits="0" branch="false" />
+            <line number="120" hits="0" branch="false" />
+            <line number="121" hits="0" branch="false" />
+            <line number="122" hits="0" branch="false" />
+            <line number="123" hits="0" branch="false" />
+            <line number="124" hits="0" branch="false" />
+            <line number="125" hits="0" branch="false" />
+            <line number="126" hits="0" branch="false" />
+            <line number="127" hits="0" branch="false" />
+            <line number="128" hits="0" branch="false" />
+            <line number="129" hits="0" branch="false" />
+            <line number="130" hits="0" branch="false" />
+            <line number="131" hits="0" branch="false" />
+            <line number="132" hits="0" branch="false" />
+            <line number="133" hits="0" branch="false" />
+            <line number="134" hits="0" branch="false" />
+            <line number="135" hits="0" branch="false" />
+            <line number="136" hits="0" branch="false" />
+            <line number="137" hits="0" branch="false" />
+            <line number="138" hits="0" branch="false" />
+            <line number="139" hits="0" branch="false" />
+            <line number="140" hits="0" branch="false" />
+            <line number="141" hits="0" branch="false" />
+            <line number="142" hits="0" branch="false" />
+            <line number="145" hits="0" branch="false" />
+            <line number="147" hits="0" branch="false" />
+            <line number="148" hits="0" branch="false" />
+            <line number="149" hits="0" branch="false" />
+            <line number="150" hits="0" branch="false" />
+            <line number="153" hits="0" branch="false" />
+            <line number="154" hits="0" branch="false" />
+            <line number="155" hits="0" branch="false" />
+            <line number="156" hits="0" branch="false" />
+            <line number="158" hits="0" branch="false" />
+            <line number="159" hits="0" branch="false" />
+            <line number="162" hits="0" branch="false" />
+            <line number="163" hits="0" branch="false" />
+            <line number="164" hits="0" branch="false" />
+            <line number="165" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.DomainObjects.Appointment" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\DomainObjects\Appointment.cs" line-rate="0.6666666666666666" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Starting" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="28" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Ending" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="21" branch="false" />
+              </lines>
+            </method>
+            <method name="get_CustomerId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_EmployeeId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_ServiceId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+            <line number="6" hits="28" branch="false" />
+            <line number="7" hits="21" branch="false" />
+            <line number="8" hits="7" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="7" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.DomainObjects.Customer" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\DomainObjects\Customer.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FirstName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="get_LastName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="7" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="14" branch="false" />
+            <line number="6" hits="7" branch="false" />
+            <line number="7" hits="7" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.DomainObjects.Employee" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\DomainObjects\Employee.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="24" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Shifts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="24" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="24" branch="false" />
+            <line number="6" hits="12" branch="false" />
+            <line number="7" hits="24" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.DomainObjects.Service" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\DomainObjects\Service.cs" line-rate="0.6" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="31" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Name" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_IsActive" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AppointmentTimeSpanInMin" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="182" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Price" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="31" branch="false" />
+            <line number="6" hits="0" branch="false" />
+            <line number="7" hits="2" branch="false" />
+            <line number="8" hits="182" branch="false" />
+            <line number="9" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.DomainObjects.Shift" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\DomainObjects\Shift.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Starting" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="203" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Ending" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="351" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="203" branch="false" />
+            <line number="6" hits="351" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Report.DaySlots" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Report\DaySlots.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Day" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="24" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="24" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Report.Slots" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Report\Slots.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_DaysSlots" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="3" hits="36" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="3" hits="36" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Repository.AppointmentRepository" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Repository\IAppointmentRepository.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAppointmentsByEmployeeIdAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Repository.CosmosRepository`1" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Repository\CosmosRepository.cs" line-rate="0" branch-rate="0" complexity="10">
+          <methods>
+            <method name="get_CosmosClient" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Database" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Container" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="AddItemAsync" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="DeleteItemAsync" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetItemAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetItemsAsync" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateItemAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="false" />
+                <line number="59" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Repository.CustomerRepository" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Repository\ICustomerRepository.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Repository.EmployeeRepository" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Repository\IEmployeeRepository.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetAllAsync" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Repository.ServiceRepository" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Repository\IServiceRepository.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetActiveServices" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetActiveService" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Services.EmployeesService" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Services\EmployeesService.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetEmployees" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Services.NowService" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Services\NowService.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Now" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Services.ServicesService" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Services\ServicesService.cs" line-rate="0.8333333333333334" branch-rate="1" complexity="3">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="2" branch="false" />
+                <line number="18" hits="2" branch="false" />
+                <line number="19" hits="2" branch="false" />
+                <line number="20" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetActiveServices" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetService" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="2" branch="false" />
+            <line number="18" hits="2" branch="false" />
+            <line number="19" hits="2" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="26" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Services.SlotsService" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain\Services\SlotsService.cs" line-rate="0.9726027397260274" branch-rate="0.75" complexity="19">
+          <methods>
+            <method name="GetEndOfOpenAppointments" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="101" hits="12" branch="false" />
+                <line number="102" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="RoundUpToNearest" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="105" hits="25" branch="false" />
+                <line number="106" hits="25" branch="false" />
+                <line number="107" hits="25" branch="false" />
+                <line number="108" hits="25" branch="false" />
+                <line number="109" hits="25" branch="false" />
+              </lines>
+            </method>
+            <method name="IsPeriodIntersecting" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="112" hits="147" branch="true" condition-coverage="100% (2/2)" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="25" branch="false" />
+                <line number="22" hits="25" branch="false" />
+                <line number="23" hits="25" branch="false" />
+                <line number="24" hits="25" branch="false" />
+                <line number="25" hits="25" branch="false" />
+                <line number="26" hits="25" branch="false" />
+                <line number="27" hits="25" branch="false" />
+                <line number="28" hits="25" branch="false" />
+                <line number="29" hits="25" branch="false" />
+                <line number="30" hits="25" branch="false" />
+                <line number="31" hits="25" branch="false" />
+                <line number="32" hits="25" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee" signature="()" line-rate="0.9622641509433962" branch-rate="0.7307692307692307" complexity="14">
+              <lines>
+                <line number="35" hits="14" branch="false" />
+                <line number="36" hits="14" branch="false" />
+                <line number="37" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="38" hits="2" branch="false" />
+                <line number="39" hits="2" branch="false" />
+                <line number="41" hits="12" branch="false" />
+                <line number="42" hits="12" branch="true" condition-coverage="50% (1/2)" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="46" hits="12" branch="false" />
+                <line number="48" hits="12" branch="false" />
+                <line number="50" hits="12" branch="false" />
+                <line number="51" hits="23" branch="true" condition-coverage="50% (3/6)" />
+                <line number="52" hits="23" branch="false" />
+                <line number="54" hits="58" branch="true" condition-coverage="100% (2/2)" />
+                <line number="55" hits="11" branch="false" />
+                <line number="56" hits="11" branch="false" />
+                <line number="57" hits="11" branch="false" />
+                <line number="58" hits="11" branch="false" />
+                <line number="60" hits="340" branch="true" condition-coverage="100% (2/2)" />
+                <line number="61" hits="159" branch="false" />
+                <line number="62" hits="159" branch="false" />
+                <line number="63" hits="159" branch="false" />
+                <line number="64" hits="159" branch="true" condition-coverage="100% (2/2)" />
+                <line number="65" hits="150" branch="false" />
+                <line number="66" hits="150" branch="false" />
+                <line number="67" hits="150" branch="false" />
+                <line number="68" hits="159" branch="false" />
+                <line number="69" hits="11" branch="false" />
+                <line number="70" hits="12" branch="false" />
+                <line number="71" hits="12" branch="false" />
+                <line number="72" hits="19" branch="true" condition-coverage="50% (3/6)" />
+                <line number="73" hits="19" branch="false" />
+                <line number="75" hits="50" branch="true" condition-coverage="100% (2/2)" />
+                <line number="76" hits="7" branch="false" />
+                <line number="77" hits="7" branch="false" />
+                <line number="78" hits="7" branch="false" />
+                <line number="79" hits="7" branch="false" />
+                <line number="80" hits="154" branch="false" />
+                <line number="81" hits="7" branch="false" />
+                <line number="83" hits="12" branch="false" />
+                <line number="84" hits="11" branch="false" />
+                <line number="85" hits="18" branch="false" />
+                <line number="87" hits="12" branch="false" />
+                <line number="89" hits="48" branch="true" condition-coverage="100% (2/2)" />
+                <line number="90" hits="6" branch="false" />
+                <line number="91" hits="28" branch="false" />
+                <line number="92" hits="6" branch="false" />
+                <line number="93" hits="6" branch="false" />
+                <line number="94" hits="6" branch="false" />
+                <line number="96" hits="12" branch="false" />
+                <line number="98" hits="12" branch="false" />
+                <line number="99" hits="12" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="25" branch="false" />
+            <line number="22" hits="25" branch="false" />
+            <line number="23" hits="25" branch="false" />
+            <line number="24" hits="25" branch="false" />
+            <line number="25" hits="25" branch="false" />
+            <line number="26" hits="25" branch="false" />
+            <line number="27" hits="25" branch="false" />
+            <line number="28" hits="25" branch="false" />
+            <line number="29" hits="25" branch="false" />
+            <line number="30" hits="25" branch="false" />
+            <line number="31" hits="25" branch="false" />
+            <line number="32" hits="25" branch="false" />
+            <line number="35" hits="14" branch="false" />
+            <line number="36" hits="14" branch="false" />
+            <line number="37" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="38" hits="2" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="41" hits="12" branch="false" />
+            <line number="42" hits="12" branch="true" condition-coverage="50% (1/2)" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="46" hits="12" branch="false" />
+            <line number="48" hits="12" branch="false" />
+            <line number="50" hits="12" branch="false" />
+            <line number="51" hits="23" branch="true" condition-coverage="50% (3/6)" />
+            <line number="52" hits="23" branch="false" />
+            <line number="54" hits="58" branch="true" condition-coverage="100% (2/2)" />
+            <line number="55" hits="11" branch="false" />
+            <line number="56" hits="11" branch="false" />
+            <line number="57" hits="11" branch="false" />
+            <line number="58" hits="11" branch="false" />
+            <line number="60" hits="340" branch="true" condition-coverage="100% (2/2)" />
+            <line number="61" hits="159" branch="false" />
+            <line number="62" hits="159" branch="false" />
+            <line number="63" hits="159" branch="false" />
+            <line number="64" hits="159" branch="true" condition-coverage="100% (2/2)" />
+            <line number="65" hits="150" branch="false" />
+            <line number="66" hits="150" branch="false" />
+            <line number="67" hits="150" branch="false" />
+            <line number="68" hits="159" branch="false" />
+            <line number="69" hits="11" branch="false" />
+            <line number="70" hits="12" branch="false" />
+            <line number="71" hits="12" branch="false" />
+            <line number="72" hits="19" branch="true" condition-coverage="50% (3/6)" />
+            <line number="73" hits="19" branch="false" />
+            <line number="75" hits="50" branch="true" condition-coverage="100% (2/2)" />
+            <line number="76" hits="7" branch="false" />
+            <line number="77" hits="7" branch="false" />
+            <line number="78" hits="7" branch="false" />
+            <line number="79" hits="7" branch="false" />
+            <line number="80" hits="154" branch="false" />
+            <line number="81" hits="7" branch="false" />
+            <line number="83" hits="12" branch="false" />
+            <line number="84" hits="11" branch="false" />
+            <line number="85" hits="18" branch="false" />
+            <line number="87" hits="12" branch="false" />
+            <line number="89" hits="48" branch="true" condition-coverage="100% (2/2)" />
+            <line number="90" hits="6" branch="false" />
+            <line number="91" hits="28" branch="false" />
+            <line number="92" hits="6" branch="false" />
+            <line number="93" hits="6" branch="false" />
+            <line number="94" hits="6" branch="false" />
+            <line number="96" hits="12" branch="false" />
+            <line number="98" hits="12" branch="false" />
+            <line number="99" hits="12" branch="false" />
+            <line number="101" hits="12" branch="false" />
+            <line number="102" hits="12" branch="false" />
+            <line number="105" hits="25" branch="false" />
+            <line number="106" hits="25" branch="false" />
+            <line number="107" hits="25" branch="false" />
+            <line number="108" hits="25" branch="false" />
+            <line number="109" hits="25" branch="false" />
+            <line number="112" hits="147" branch="true" condition-coverage="100% (2/2)" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Uqs.AppointmentBooking.Domain.Tests.Unit" line-rate="0.9915254237288136" branch-rate="1" complexity="12">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\maranf\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Tests.Unit.ServicesServiceTests" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain.Tests.Unit\ServicesServiceTests.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="GetActiveServices_NoServiceInTheSystem_NoServices" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="1" branch="false" />
+                <line number="20" hits="1" branch="false" />
+                <line number="23" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetActiveServices_TwoActiveServices_TwoServices" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="2" branch="false" />
+            <line number="18" hits="1" branch="false" />
+            <line number="20" hits="1" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="Uqs.AppointmentBooking.Domain.Tests.Unit.SlotsServiceTests" filename="C:\Users\maranf\Videos\Pragmatic-Test-Driven-Development-in-C-.NET-main\ch10\UqsAppointmentBooking\Uqs.AppointmentBooking.Domain.Tests.Unit\SlotsServiceTests.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="14" branch="false" />
+                <line number="17" hits="14" branch="false" />
+                <line number="18" hits="14" branch="false" />
+                <line number="19" hits="14" branch="false" />
+                <line number="20" hits="14" branch="false" />
+                <line number="21" hits="14" branch="false" />
+                <line number="22" hits="14" branch="false" />
+                <line number="23" hits="14" branch="false" />
+                <line number="24" hits="14" branch="false" />
+                <line number="25" hits="14" branch="false" />
+                <line number="26" hits="14" branch="false" />
+                <line number="27" hits="14" branch="false" />
+                <line number="28" hits="14" branch="false" />
+                <line number="31" hits="14" branch="false" />
+                <line number="32" hits="14" branch="false" />
+                <line number="33" hits="14" branch="false" />
+                <line number="34" hits="14" branch="false" />
+                <line number="35" hits="14" branch="false" />
+                <line number="36" hits="14" branch="false" />
+                <line number="37" hits="14" branch="false" />
+                <line number="38" hits="14" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee_EmployeeIdNoFound_ArgumentException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="55" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="2" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee_NoShiftsForTomAndNoAppointmentsInSystem_NoSlots" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="68" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="72" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="77" hits="1" branch="false" />
+                <line number="80" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee_OneShiftAndNoExistingAppointments_VaryingSlots" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="94" hits="4" branch="false" />
+                <line number="96" hits="4" branch="false" />
+                <line number="97" hits="4" branch="false" />
+                <line number="98" hits="4" branch="false" />
+                <line number="99" hits="4" branch="false" />
+                <line number="100" hits="4" branch="false" />
+                <line number="101" hits="4" branch="false" />
+                <line number="102" hits="4" branch="false" />
+                <line number="103" hits="4" branch="false" />
+                <line number="105" hits="4" branch="false" />
+                <line number="106" hits="4" branch="false" />
+                <line number="107" hits="4" branch="false" />
+                <line number="108" hits="4" branch="false" />
+                <line number="109" hits="4" branch="false" />
+                <line number="110" hits="4" branch="false" />
+                <line number="112" hits="4" branch="false" />
+                <line number="113" hits="4" branch="false" />
+                <line number="116" hits="4" branch="false" />
+                <line number="119" hits="6" branch="false" />
+                <line number="120" hits="4" branch="false" />
+                <line number="121" hits="14" branch="true" condition-coverage="100% (2/2)" />
+                <line number="122" hits="3" branch="false" />
+                <line number="123" hits="3" branch="false" />
+                <line number="124" hits="3" branch="false" />
+                <line number="125" hits="3" branch="false" />
+                <line number="126" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee_OneShiftWithVaryingAppointments_VaryingSlots" signature="()" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="138" hits="7" branch="false" />
+                <line number="140" hits="7" branch="false" />
+                <line number="141" hits="7" branch="false" />
+                <line number="142" hits="7" branch="false" />
+                <line number="143" hits="7" branch="false" />
+                <line number="144" hits="7" branch="false" />
+                <line number="145" hits="7" branch="false" />
+                <line number="146" hits="7" branch="false" />
+                <line number="147" hits="7" branch="false" />
+                <line number="148" hits="7" branch="false" />
+                <line number="149" hits="7" branch="false" />
+                <line number="150" hits="7" branch="false" />
+                <line number="151" hits="7" branch="false" />
+                <line number="153" hits="7" branch="false" />
+                <line number="154" hits="7" branch="false" />
+                <line number="155" hits="7" branch="false" />
+                <line number="156" hits="7" branch="false" />
+                <line number="157" hits="7" branch="false" />
+                <line number="158" hits="7" branch="false" />
+                <line number="160" hits="7" branch="false" />
+                <line number="161" hits="7" branch="false" />
+                <line number="164" hits="7" branch="false" />
+                <line number="167" hits="11" branch="false" />
+                <line number="168" hits="7" branch="false" />
+                <line number="169" hits="30" branch="true" condition-coverage="100% (2/2)" />
+                <line number="170" hits="8" branch="false" />
+                <line number="171" hits="8" branch="false" />
+                <line number="172" hits="8" branch="false" />
+                <line number="173" hits="8" branch="false" />
+                <line number="174" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAvailableSlotsForEmployee_ServiceIdNoFound_ArgumentException" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="2" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="14" branch="false" />
+            <line number="17" hits="14" branch="false" />
+            <line number="18" hits="14" branch="false" />
+            <line number="19" hits="14" branch="false" />
+            <line number="20" hits="14" branch="false" />
+            <line number="21" hits="14" branch="false" />
+            <line number="22" hits="14" branch="false" />
+            <line number="23" hits="14" branch="false" />
+            <line number="24" hits="14" branch="false" />
+            <line number="25" hits="14" branch="false" />
+            <line number="26" hits="14" branch="false" />
+            <line number="27" hits="14" branch="false" />
+            <line number="28" hits="14" branch="false" />
+            <line number="31" hits="14" branch="false" />
+            <line number="32" hits="14" branch="false" />
+            <line number="33" hits="14" branch="false" />
+            <line number="34" hits="14" branch="false" />
+            <line number="35" hits="14" branch="false" />
+            <line number="36" hits="14" branch="false" />
+            <line number="37" hits="14" branch="false" />
+            <line number="38" hits="14" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="2" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="2" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="72" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="80" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="94" hits="4" branch="false" />
+            <line number="96" hits="4" branch="false" />
+            <line number="97" hits="4" branch="false" />
+            <line number="98" hits="4" branch="false" />
+            <line number="99" hits="4" branch="false" />
+            <line number="100" hits="4" branch="false" />
+            <line number="101" hits="4" branch="false" />
+            <line number="102" hits="4" branch="false" />
+            <line number="103" hits="4" branch="false" />
+            <line number="105" hits="4" branch="false" />
+            <line number="106" hits="4" branch="false" />
+            <line number="107" hits="4" branch="false" />
+            <line number="108" hits="4" branch="false" />
+            <line number="109" hits="4" branch="false" />
+            <line number="110" hits="4" branch="false" />
+            <line number="112" hits="4" branch="false" />
+            <line number="113" hits="4" branch="false" />
+            <line number="116" hits="4" branch="false" />
+            <line number="119" hits="6" branch="false" />
+            <line number="120" hits="4" branch="false" />
+            <line number="121" hits="14" branch="true" condition-coverage="100% (2/2)" />
+            <line number="122" hits="3" branch="false" />
+            <line number="123" hits="3" branch="false" />
+            <line number="124" hits="3" branch="false" />
+            <line number="125" hits="3" branch="false" />
+            <line number="126" hits="4" branch="false" />
+            <line number="138" hits="7" branch="false" />
+            <line number="140" hits="7" branch="false" />
+            <line number="141" hits="7" branch="false" />
+            <line number="142" hits="7" branch="false" />
+            <line number="143" hits="7" branch="false" />
+            <line number="144" hits="7" branch="false" />
+            <line number="145" hits="7" branch="false" />
+            <line number="146" hits="7" branch="false" />
+            <line number="147" hits="7" branch="false" />
+            <line number="148" hits="7" branch="false" />
+            <line number="149" hits="7" branch="false" />
+            <line number="150" hits="7" branch="false" />
+            <line number="151" hits="7" branch="false" />
+            <line number="153" hits="7" branch="false" />
+            <line number="154" hits="7" branch="false" />
+            <line number="155" hits="7" branch="false" />
+            <line number="156" hits="7" branch="false" />
+            <line number="157" hits="7" branch="false" />
+            <line number="158" hits="7" branch="false" />
+            <line number="160" hits="7" branch="false" />
+            <line number="161" hits="7" branch="false" />
+            <line number="164" hits="7" branch="false" />
+            <line number="167" hits="11" branch="false" />
+            <line number="168" hits="7" branch="false" />
+            <line number="169" hits="30" branch="true" condition-coverage="100% (2/2)" />
+            <line number="170" hits="8" branch="false" />
+            <line number="171" hits="8" branch="false" />
+            <line number="172" hits="8" branch="false" />
+            <line number="173" hits="8" branch="false" />
+            <line number="174" hits="7" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
